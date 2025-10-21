@@ -1,0 +1,12 @@
+pypdf
+Flask
+python-dotenv
+sentence-transformers
+faiss-cpu
+huggingface-hub
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langchain-groq
