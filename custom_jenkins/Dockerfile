@@ -13,4 +13,6 @@ RUN groupadd -f docker && \
 RUN mkdir -p /var/lib/docker
 VOLUME /var/lib/docker
 
+ENV PIP_DEFAULT_TIMEOUT=3600
+
 USER jenkins
