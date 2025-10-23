@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    options {
+        timeout(time: 1, unit: 'HOURS')
+    }
+
     environment {
         AWS_REGION = 'us-east-1'
         ECR_REPO = 'andrew-repo'
